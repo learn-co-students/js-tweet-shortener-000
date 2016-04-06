@@ -50,6 +50,7 @@ describe('tweetShortener', function() {
 
   it("keeps shortened tweets at their original lengths", function(){
     var shortTweet = "I like short tweets and I cannot lie";
+    debugger;
     expect(tweetShortener.shortenedTruncator(shortTweet).length).toEqual(shortTweet.length);
   });
 });
